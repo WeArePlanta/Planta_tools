@@ -24,8 +24,7 @@ add_action( 'init', function() {
 		'copy_to_clipboard_style', 
 		'/wp-content/plugins/planta-tools/css/copy-to-clipboard.css', 
 		array(), 
-		PLANTA_VERSION, 
-		true 
+		PLANTA_VERSION
 	);
 
 

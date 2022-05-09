@@ -1,10 +1,18 @@
 
 .copy-to-clipboard:hover::after {
-    content: "Click to copy";
+    content: "Click to copy" !important;
     position: absolute;
-    background-color: gray;
-    max-width: 75px;
+    background-color: #cdc4c4;
+    max-width: 89px;
+    text-align: center;
     border-radius: 3px;
     font-size: 12px;
+    top: -35px;
+    color: black;
+    left: 0;
+    padding: 5px 8px;
+    right: 0;
+    margin: auto;
+    font-weight: bold;
 
 }
