@@ -9,6 +9,9 @@
  */
 
 define( 'PLANTA_TOOLS_VERSION', '1.0.1' );
+define( 'PLANTA_TOOLS_FORMS_OPTION_NAME', 'planta_tools_forms_option' );
+define( 'PLANTA_TOOLS_FORMS_NONCE', 'planta_tools_nonce' );
+
 
 add_action( 'init', function() {
 
@@ -608,6 +611,8 @@ add_action(
 						'rel'  => true,
 						'href' => true,
 					);
+
+					$allowed['style']             = true;
 
 					$allowed['div']               = array();
 					$allowed['div']['class']      = true;
