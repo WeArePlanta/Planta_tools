@@ -1,0 +1,66 @@
+#alt_forms_container {
+	overflow: hidden;
+    margin: 40px 0 20px;
+}
+
+@media (min-width: 1024px) {
+	#alt_forms_container {
+		width: 90%;
+	}
+}
+
+.alt_form_slot {
+	margin-bottom: 5px;
+	float: left;
+	clear: left;
+}
+
+input.alt_forms_id,
+input.alt_forms_submit_url,
+input.alt_forms_post_type,
+input.alt_forms_category,
+input.alt_forms_email,
+select.alt_forms_post_type,
+input.alt_forms_confirmation_email,
+input.alt_forms_confirmation_email_subject  {
+	float: left;
+	position: relative;
+	margin-right: 20px;
+	margin-top: 10px;
+	width: 270px;
+	max-width: 100%;
+}
+
+.alt_forms_force_print,
+.alt_forms_async_load {
+	float: left;
+	position: relative;
+}
+
+input.alt_forms_force_print,
+input.alt_forms_async_load {
+	margin: 2px 15px 0px 10px;
+}
+
+a.alt_forms_remove_slot {
+	display: inline-block;
+	margin: 10px 20px 0px 0px;
+	padding: 4px 8px;
+	text-align: center;
+	width: 100px;
+	text-decoration: none;
+	border: 1px solid #0071a1;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+
+textarea.alt_forms_html,
+textarea.alt_forms_confirmation_html,
+textarea.alt_forms_custom_css {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	clear: both;
+	min-height: 150px;
+}

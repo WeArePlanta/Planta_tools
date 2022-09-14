@@ -1,0 +1,104 @@
+# Copyright (C) 2020 Alternativa Laboral Trans Cooperativa
+# This file is distributed under the same license as the ALT Forms plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: ALT Forms 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/alt-forms\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-12-27T14:43:06+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: alt-forms\n"
+
+#. Plugin Name of the plugin
+#: alt-forms.php:149
+msgid "ALT Forms"
+msgstr ""
+
+#. Description of the plugin
+msgid "Este plugin permite la generación e inclusión de forms que almacenen la información recibida en la base de datos del sitio."
+msgstr ""
+
+#. Author of the plugin
+msgid "Alternativa Laboral Trans Cooperativa"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://altcooperativa.com"
+msgstr ""
+
+#: alt-forms.php:63
+msgid "Complete the required fields"
+msgstr ""
+
+#: alt-forms.php:64
+msgid "Remove"
+msgstr ""
+
+#: alt-forms.php:65
+msgid "ID"
+msgstr ""
+
+#: alt-forms.php:66
+msgid "HTML"
+msgstr ""
+
+#: alt-forms.php:67
+msgid "Submit URL"
+msgstr ""
+
+#: alt-forms.php:68
+msgid "Post Type"
+msgstr ""
+
+#: alt-forms.php:69
+msgid "Category"
+msgstr ""
+
+#: alt-forms.php:70
+msgid "Email receiver"
+msgstr ""
+
+#: alt-forms.php:71
+msgid "Confirmation email (name)"
+msgstr ""
+
+#: alt-forms.php:72
+msgid "Confirmation email subject"
+msgstr ""
+
+#: alt-forms.php:73
+msgid "Confirmation HTML"
+msgstr ""
+
+#: alt-forms.php:74
+msgid "Custom CSS"
+msgstr ""
+
+#: alt-forms.php:85
+msgid "Missing Nonce"
+msgstr ""
+
+#: alt-forms.php:89
+msgid "Invalid Nonce"
+msgstr ""
+
+#: alt-forms.php:93
+msgid "You have not permissions"
+msgstr ""
+
+#: alt-forms.php:128
+msgid "ALT Forms Settings Updated"
+msgstr ""
+
+#: alt-forms.php:134
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: alt-forms.php:151
+msgid "Add New ALT Form Slot"
+msgstr ""

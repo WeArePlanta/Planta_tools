@@ -1,0 +1,119 @@
+msgid "Careers"
+msgstr "Ofertas Laborales"
+
+msgid "If you enjoy challenges, want to participate in a dynamic culture, love the digital media industry and you\'re are looking for a place to develop professionally within the fastest growing environment, we want to hear from you."
+msgstr "Si te gustan los desafíos, quieres participar en un ambiente de trabajo dinámico, te interesa la industria de medios digitales y quieres un lugar en el que puedas desarrollarte de forma profesional dentro de una industria en crecimiento constante, queremos saber sobre ti."
+
+msgid "Our values"
+msgstr "Nuestros valores"
+
+msgid "what makes our teams"
+msgstr "hacen que nuestros equipos sean"
+
+msgid "unique"
+msgstr "únicos"
+
+msgid "Possitivity. Give people the benefith of the boubt. Be kind and open. Reach out for and offer help."
+msgstr "positividad. Darle a la gente el beneficio de la duda. Ser generoso y accesible. Pedir y ofrecer ayuda."
+
+msgid "Driver of change"
+msgstr "Agente de cambio"
+
+msgid "Proactively suggest and implement changes, always learning."
+msgstr "sugerir e implementar cambios de forma proactiva, aprendiendo en todo momento."
+
+msgid "Excellence"
+msgstr "Excelencia"
+
+msgid "Deliver timely and quality products beyond expectations."
+msgstr "llevar a cabo tareas en tiempo y forma, superando las expectativas."
+
+msgid "Ownership"
+msgstr "Pertenencia"
+
+msgid "Take responsibility and ensure things happen; detect and solve problems."
+msgstr "sentirse responsable de que las tareas se lleven a cabo. Detectar y resolver problemas."
+
+msgid "U.S. Hispanic Population"
+msgstr "Población hispana estadounidense"
+
+msgid "Hispanic Ad Spend in 2015"
+msgstr "gasto publicitario en audiencias hispanas en 2015"
+
+msgid "Hispanics Eligible to Vote"
+msgstr "Hispanos que reúnen los requisitos para votar"
+
+msgid "Listened to online Radio in the last month"
+msgstr ""
+
+msgid "of Hispanics internet users accessed the web on a mobile device"
+msgstr ""
+
+msgid "Hispanic radio listeners in the U.S."
+msgstr ""
+
+msgid "of Hispanics aged 18-34 use the medium"
+msgstr ""
+
+msgid "spent listening to the radio every month"
+msgstr ""
+
+msgid "Audio Streaming Sessions during last month"
+msgstr ""
+
+msgid "Locally Owned and Operated Radio Stations accross the country"
+msgstr ""
+
+msgid "Total Streaming Hours Listened to in the Past Month"
+msgstr ""
+
+msgid "Unique users during last month"
+msgstr ""
+
+msgid "Speak Spanish at Home"
+msgstr "de los hispanos habla español en sus hogares"
+
+msgid "Are Highly Acculturated"
+msgstr "de los hispanos tiene un nivel de aculturación alto"
+
+msgid "Speak English Well"
+msgstr "habla inglés bien"
+
+msgid "default"
+msgstr "defecto"
+
+msgid "Initial Dimensions (WHX in Pixels)"
+msgstr ""
+
+msgid "Maximum Expanded Dimensions (WHX in Pixels)"
+msgstr ""
+
+msgid "Max Initial File Load Size"
+msgstr ""
+
+msgid "Host-Initiated Subload"
+msgstr ""
+
+msgid "Subsequent Max User-Initiated File Load Size"
+msgstr ""
+
+msgid "Max Additional Initial File Load Size For OBA Self-Reg Compliance"
+msgstr ""
+
+msgid "Subsequent Max Polite File Load Size"
+msgstr ""
+
+msgid "Animation Video Guidelines"
+msgstr ""
+
+msgid "Audio Initiation"
+msgstr ""
+
+msgid "Supported Creative Types"
+msgstr ""
+
+msgid "3rd Party Adserver"
+msgstr ""
+
+msgid "Unit Specific Notes"
+msgstr ""
