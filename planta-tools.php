@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name: Planta Tools
- * Version:     1.0.2
+ * Version:     1.0.6
  * Description: Customizaciones para el sitio weareplanta.com
  * Author:      Natalia Ciraolo 
  * License:     GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
-define( 'PLANTA_TOOLS_VERSION', '1.0.1' );
+define( 'PLANTA_TOOLS_VERSION', '1.0.6' );
 define( 'PLANTA_TOOLS_FORMS_OPTION_NAME', 'planta_tools_forms_option' );
 define( 'PLANTA_TOOLS_FORMS_NONCE', 'planta_tools_nonce' );
 
