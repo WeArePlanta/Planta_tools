@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Planta Tools
- * Version:     1.0.1
+ * Version:     1.0.2
  * Description: Customizaciones para el sitio weareplanta.com
  * Author:      Natalia Ciraolo 
  * License:     GPL v2 or later
@@ -36,11 +36,11 @@ add_action( 'init', function() {
 add_action(
 	'wp_enqueue_scripts',
 	function() {
-		if ( ! wp_script_is( 'planta-tools-ajax', 'registered' ) ) {
-			wp_register_script( 'planta-tools-ajax', WP_CONTENT_URL . '/plugins/planta-tools/planta-tools-ajax.js', array(), PLANTA_TOOLS_VERSION, true );
+		if ( ! wp_script_is( 'planta-tools-forms-ajax', 'registered' ) ) {
+			wp_register_script( 'planta-tools-forms-ajax', WP_CONTENT_URL . '/plugins/planta-tools/planta-tools-forms-ajax.js', array(), PLANTA_TOOLS_VERSION, true );
 		}
 
-		wp_register_script( 'planta-tools-forms-js', WP_CONTENT_URL . '/plugins/planta-tools/form.js', array( 'planta-tools-ajax' ), PLANTA_TOOLS_VERSION, true );
+		wp_register_script( 'planta-tools-forms-js', WP_CONTENT_URL . '/plugins/planta-tools/form.js', array( 'planta-tools-forms-ajax' ), PLANTA_TOOLS_VERSION, true );
 	}
 );
 

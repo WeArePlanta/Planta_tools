@@ -1,5 +1,5 @@
 /**
- * This file handles the submission of ALT Forms.
+ * This file handles the submission of Planta Forms.
  *
  * Uses '/planta-tools-ajax.js';
  */
@@ -61,7 +61,7 @@ var PlantaForm = {
 
 				this.form.className = 'planta-tools-forms-ajax-form planta-tools-form-submission-success';
 
-				this.messageElement.innerText = '¡Muchas gracias! ¡Hemos recibido tus datos correctamente!';
+				this.messageElement.innerText = '¡Muchas gracias! ¡Hemos recibido tus datos correctamente! Descargar guías <a href="https://weareplanta.com/wp-content/uploads/2022/04/foto-nati-1.jpg" download>';
 				this.messageElement.className = 'planta-tools-form-response-message success';
 
 			} else {
