@@ -61,7 +61,7 @@ var PlantaForm = {
 
 				this.form.className = 'planta-tools-forms-ajax-form planta-tools-form-submission-success';
 
-				this.messageElement.innerHTML = "<p style='max-width:400px, padding-lef:20px'>Thank you!</p><a href='https://weareplanta.com/wp-content/uploads/2022/04/foto-nati-1.jpg' download style='color:#00E170;'>Link to Guide for Sustainable & Accesible Webs</a><br><a href='https://weareplanta.com/wp-content/uploads/2022/08/foto-lu.jpg' download style='color:#00E170;'>Link to Guide for Sustainable Film Production & Events</a>";
+				this.messageElement.innerHTML = "<p style='max-width:400px, padding-lef:20px'>Thank you!</p><a href='https://weareplanta.com/wp-content/uploads/2022/09/PLANTA-Sustainable-Accessible-Web-Guide.pdf' download style='color:#00E170;'>Link to Guide for Sustainable & Accessible Webs</a><br><a href='https://weareplanta.com/wp-content/uploads/2022/09/PLANTA_Sustainable-Film-and-Events-Guide.pdf' download style='color:#00E170;'>Link to Guide for Sustainable Film Production & Events</a>";
 				this.messageElement.className = 'planta-tools-form-response-message success';
 
 			} else {
