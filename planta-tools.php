@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Planta Tools
- * Version:     1.0.7
+ * Version:     1.0.8
  * Description: Customizaciones para el sitio weareplanta.com
  * Author:      Natalia Ciraolo 
  * License:     GPL v2 or later
