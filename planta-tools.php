@@ -540,6 +540,9 @@ function planta_tools_form_export_form( $post_type ) {
 
 			$html .= '<tr>';
 
+			$html_head .= '<th>date</th>';
+			$html      .= '<td>' . $post->post_date . '</td>';
+
 			foreach ( $entry as $key => $value ) {
 				if ( 0 === $i ) {
 					$html_head .= '<th>' . $key . '</th>';
