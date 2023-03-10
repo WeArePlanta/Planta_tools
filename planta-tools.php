@@ -366,6 +366,8 @@ function planta_tools_forms_ajax_submit_form() {
 	) {
 		$form_id = isset( $_POST['planta-tools-form-id'] ) ? strval( sanitize_text_field( wp_unslash( $_POST['planta-tools-form-id'] ) ) ) : null;
 
+		$name_entry = sanitize_text_field( $form_slot->post_type );
+		
 		if ( $form_id ) {
 			$form_slot = planta_tools_forms_get_form_slot_by_id( $form_id );
 		}
@@ -376,6 +378,10 @@ function planta_tools_forms_ajax_submit_form() {
 				$form_data = wp_json_encode( $_POST );
 
 				foreach ( $_POST as $form_field_name => $form_field_value ) {
+
+					if ($form_field_name === 'name') {
+						$name_entry = $form_field_value;
+					}
 
 					if ( $form_field_name !== 'planta-tools-form-ajax'
 					&& $form_field_name !== 'planta_tools_forms_submit_form_nonce' 
@@ -400,7 +406,7 @@ function planta_tools_forms_ajax_submit_form() {
 				if ( $form_post_type ) {
 					$post_insertion = wp_insert_post(
 						array(
-							'post_title'   => sanitize_text_field( $form_slot->post_type ) . ' Entry',
+							'post_title'   => $name_entry,
 							'post_content' => wp_kses_post( $html_data ),
 							'post_excerpt' => sanitize_text_field( $form_data ),
 							'post_type'    => sanitize_text_field( $form_post_type ),
@@ -634,6 +640,18 @@ add_action(
 					$allowed['iframe']['frameborder'] = true;
 					$allowed['iframe']['src']         = true;
 					$allowed['iframe']['scrolling']   = true;
+
+					$allowed['picture']               = array();
+					$allowed['picture']['class']      = true;
+					$allowed['picture']['id']         = true;
+					$allowed['picture']['source']     = true;
+					
+					$allowed['style'] = array();
+					
+					$allowed['source'] = array();
+					$allowed['source']['media'] = true;
+					$allowed['source']['srcset'] = true;
+					$allowed['source']['alt'] = true;
 				}
 
 				return $allowed;
