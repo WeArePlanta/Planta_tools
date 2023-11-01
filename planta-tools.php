@@ -523,7 +523,7 @@ function planta_tools_form_export_form( $post_type ) {
 		array(
 			'post_type'      => $post_type,
 			'post_status'    => 'any',
-			'posts_per_page' => 100,
+			'posts_per_page' => -1,
 			'order'          => 'asc',
 		)
 	);
